@@ -40,7 +40,7 @@
     }
 
     .sobre {
-        height: 600px;
+        height: 800px;
     }
 
     .sobre_txt {
@@ -53,10 +53,16 @@
         display: none;
     }
 
+    .valores {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     .card {
         background: #000128;
         color: white;
-        margin-top: 10px;
+
+
     }
 
     .txtv {
@@ -88,12 +94,23 @@
         text-align: center;
     }
 
+    .titulo,
+    .processo {
+        border-left: 3px solid white;
+        border-right: 3px solid white;
+
+    }
+
+    .processo {
+        margin-bottom: 50px;
+    }
+
     .servicos {
         display: none;
     }
 
     .vamos {
-        margin-top: 20%;
+        margin-top: 100px;
     }
 
     .contacte_txt {

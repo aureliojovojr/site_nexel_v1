@@ -51,7 +51,7 @@
     }
 
     .headline h2 {
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .img_headline {
@@ -64,23 +64,39 @@
     }
 
     .titulo {
-        padding: 5%;
+        display: none;
+
+    }
+
+    .processo {
+        height: 520px;
+        border-radius: 15px;
+
     }
 
     .img_pro {
         display: none;
     }
 
+    .info_pro {
+        text-decoration: none;
+        text-align: center;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
     .sobre {
-        margin-left: 0%;
-        margin: 5%;
+        margin-right: 5%;
+
         padding-bottom: 20px;
+        margin-bottom: 200px;
+
 
     }
 
     .sobre_txt h2 {
 
-        font-size: 20px;
+        font-size: 30px;
 
     }
 
