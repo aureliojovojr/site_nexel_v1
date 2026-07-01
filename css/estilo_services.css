@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Manrope:wght@200..800&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Google Sans Flex", sans-serif;
+    color: #000128;
+}
+
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    background: #000128;
+    /* justify-content: center; */
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid goldenrod; */
+    margin-left: 5%;
+
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    text-align: left;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+}
+
+.menu {
+    /* border: 1px solid red; */
+    margin-right: 5%;
+    text-align: right;
+    flex: 70%;
+    /* padding: 20px 16px; */
+    font-size: 17px;
+
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+
+.menu a:hover {
+    /* background: white; */
+    border-top: 3px solid white;
+    /* border-radius: 10px; */
+    color: orangered;
+
+}
+
+#botao {
+    background: #000128;
+    color: white;
+    border: 2px solid white;
+    /* padding: 25px 15px; */
+
+    /* border-top: none; */
+    margin-left: 3%;
+    border-radius: 10px;
+}
+
+#botao:hover {
+
+    background: white;
+    color: #000128;
+
+}
+
+
+header {
+    background-image: url('/img/high-level-description-a-minimalist-hori_Qg6qShe8UiaaXKXmtXCvCQ_lC-8uyWiRV6E4M6gpb8QzA.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-top: 0;
+}
+
+.headline {
+    display: flex;
+    flex-flow: column;
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+
+}
+
+.headline h2 {
+    font-family: "Orbitron", sans-serif;
+}
+
+section h2 {
+    font-family: "Orbitron", sans-serif;
+    font-weight: bolder;
+}
+
+.devweb {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 500px;
+
+}
+
+
+.txtweb {
+    flex: 40%;
+    margin-left: 5%;
+
+
+}
+
+.servicos {
+    margin: 5%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.card {
+    display: inline-block;
+    width: 27%;
+    margin: 10px;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000128;
+
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow:
+        0 12px 25px rgba(0, 0, 0, 0.12),
+        0 6px 10px rgba(0, 0, 0, 0.08);
+}
+
+.imgweb {
+    flex: 40%;
+    margin-right: 5%;
+    text-align: center;
+
+}
+
+
+/* _______________________________________________________________________________ */
+.design {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    border: 3px solid;
+    border-radius: 15px;
+    background: #000128;
+    color: white;
+
+}
+
+
+.txtdesign {
+    flex: 40%;
+    margin-right: 5%;
+
+
+}
+
+.servicos {
+    margin: 5%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.imgdesign {
+    flex: 40%;
+    margin-left: 5%;
+    text-align: center;
+
+}
+
+/* ________________________________________________________________ */
+
+.mkt {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    height: 500px;
+
+
+}
+
+
+.txtmkt {
+    flex: 40%;
+    margin-left: 5%;
+
+
+}
+
+.imgmkt {
+    flex: 40%;
+    margin-right: 5%;
+    text-align: center;
+
+}
+
+
+.Vamos {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    display: flex;
+    background: #000128;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.contacte_txt {
+
+    flex: 50%;
+    flex-flow: row wrap;
+    /* margin-left: 5%; */
+    /* border: 1px solid red; */
+    color: white;
+    text-align: justify;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    background: white;
+    color: #000128;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+    background: #000128;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.contacte_img {
+
+    flex: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(135deg, #14087e, #000000, #020b2d);
+    color: white;
+    text-align: center;
+    border-top: 5px solid #e6e6e6;
+}
+
+.rodape {
+    padding: 70px;
+}
+
+.rodape h2 {
+    font-family: "Orbitron", sans-serif;
+}
+
+.copy {
+    font-size: 10px;
+}

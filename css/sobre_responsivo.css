@@ -1,0 +1,108 @@
+@media screen and (max-width:1000px) {
+    .navbar {
+        position: relative
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 40px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .menu {
+        flex: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        padding-bottom: 20px;
+
+    }
+
+    .menu a {
+        text-transform: uppercase;
+        font-weight: bold;
+        background: #000128;
+        color: white;
+        border: 1px solid white;
+        text-decoration: none;
+
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+
+    #botao {
+        display: none;
+    }
+
+    .sobre {
+        height: 600px;
+    }
+
+    .sobre_txt {
+        margin-top: 10px;
+        margin-right: 5%;
+
+    }
+
+    .sobre_logo {
+        display: none;
+    }
+
+    .card {
+        background: #000128;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .txtv {
+        display: none;
+    }
+
+    .txto {
+        display: block;
+    }
+
+    .titulo {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .img_pro {
+        display: none;
+    }
+
+    .processo {
+        margin-bottom: 20px;
+    }
+
+    .processo h2 {
+        font-size: 10px;
+    }
+
+    .info_pro {
+        text-align: center;
+    }
+
+    .servicos {
+        display: none;
+    }
+
+    .vamos {
+        margin-top: 20%;
+    }
+
+    .contacte_txt {
+        text-align: center;
+    }
+
+    .contacte_img {
+        display: none;
+    }
+
+
+}

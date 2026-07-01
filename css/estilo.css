@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Manrope:wght@200..800&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    background: #000128;
+    /* justify-content: center; */
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid goldenrod; */
+    margin-left: 5%;
+
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    text-align: left;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+}
+
+.menu {
+    /* border: 1px solid red; */
+    margin-right: 5%;
+    text-align: right;
+    flex: 70%;
+    /* padding: 20px 16px; */
+    font-size: 17px;
+
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+
+.menu a:hover {
+    /* background: white; */
+    border-top: 3px solid white;
+    /* border-radius: 10px; */
+    color: orangered;
+
+}
+
+#botao {
+    background: #000128;
+    color: white;
+    border: 2px solid white;
+    /* padding: 25px 15px; */
+
+    /* border-top: none; */
+    margin-left: 3%;
+    border-radius: 10px;
+}
+
+#botao:hover {
+
+    background: white;
+    color: #000128;
+
+}
+
+.header {
+    /* background: gray; */
+    /* padding-top: 20px; */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background: #000128;
+    color: white;
+    padding-top: 50px;
+    height: 500px;
+
+
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 5%;
+
+
+}
+
+.headline h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.txt {
+    font-size: 37px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1%;
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+}
+
+.botao {
+    text-transform: uppercase;
+    font-weight: bold;
+    background: white;
+    color: #000128;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.botao:hover {
+    background: #000128;
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 10px;
+}
+
+
+.img_headline {
+
+    flex: 40%;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 0;
+    /* border: 1px solid greenyellow; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.servicos {
+    margin: 5%;
+    display: inline-block;
+    /* border: 1px solid brown; */
+    text-align: center;
+    color: #000128;
+    padding-bottom: 50px;
+}
+
+.servicos h2 {
+    font-family: "Orbitron", sans-serif;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow:
+        0 12px 25px rgba(0, 0, 0, 0.12),
+        0 6px 10px rgba(0, 0, 0, 0.08);
+}
+
+.seta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.titulo {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    background: #000128;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+}
+
+.processo {
+    /* padding-top: 5px; */
+    margin-top: 0;
+    display: flex;
+    flex-flow: row wrap;
+    background: #000128;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+    /* border: 2px solid blue; */
+    color: white;
+
+
+}
+
+
+.img_pro {
+    flex: 40%;
+    /* margin-top: 10px; */
+    margin-left: 5%;
+
+    /* border: 1px solid greenyellow; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info_pro {
+    flex: 40%;
+    display: block;
+    margin-left: 5%;
+    flex-flow: row wrap;
+    margin-right: 5%;
+    /* border: 1px solid red; */
+
+}
+
+.info_pro h2,
+h3 {
+    font-family: "Orbitron", sans-serif;
+}
+
+
+.sobre {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    height: 400px;
+}
+
+.sobre_txt {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 50%;
+    margin-left: 5%;
+    /* border: 1px solid red; */
+    color: #000128;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+
+.sobre_txt h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+
+}
+
+
+
+.sobre_logo {
+    display: flex;
+    flex: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Vamos {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    display: flex;
+    background: #e6e6e6;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.contacte_txt {
+
+    flex: 50%;
+    flex-flow: row wrap;
+    /* margin-left: 5%; */
+    /* border: 1px solid red; */
+    color: #000128;
+    text-align: justify;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #000128;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+    background: #ffffff;
+    color: #000128;
+    border: 1px solid #000128;
+}
+
+.contacte_img {
+
+    flex: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(135deg, #14087e, #000000, #020b2d);
+    color: white;
+    text-align: center;
+    border-top: 5px solid #e6e6e6;
+}
+
+.rodape {
+    padding: 70px;
+}
+
+.rodape h2 {
+    font-family: "Orbitron", sans-serif;
+}
+
+.copy {
+    font-size: 10px;
+}

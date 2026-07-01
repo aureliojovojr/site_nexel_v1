@@ -1,0 +1,102 @@
+@media screen and (max-width:1000px) {
+    .navbar {
+        position: relative
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 40px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .menu {
+        flex: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        padding-bottom: 20px;
+
+    }
+
+    .menu a {
+        text-transform: uppercase;
+        font-weight: bold;
+        background: #000128;
+        color: white;
+        border: 1px solid white;
+        text-decoration: none;
+
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+
+    #botao {
+        display: none;
+    }
+
+    header {
+        background-image: none;
+
+        height: 5%;
+    }
+
+    .headline {
+        color: #000128;
+        text-align: center;
+
+        background: #000128;
+        margin: 5%;
+        color: white;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .headline h2 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    .imgweb {
+        display: none;
+    }
+
+    .imgdesign {
+        display: none;
+
+    }
+
+    .txtdesign {
+        margin: 5%;
+    }
+
+    .mkt {
+        margin-bottom: 0px;
+    }
+
+    .imgmkt {
+        display: none;
+    }
+
+    .vamos {
+        margin-top: 20%;
+    }
+
+    .contacte_txt {
+        text-align: center;
+    }
+
+    .contacte_img {
+        display: none;
+    }
+
+
+}
